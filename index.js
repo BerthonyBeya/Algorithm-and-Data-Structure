@@ -19,7 +19,7 @@
 console.log(combineArrays([1, 2, 3, [4, 5, 6], 1])); */
 
 //* Given an array with 0s at the end [1, 2, 3, 4, 5, 0, 0], display those zeros at the beginning of the array [0, 0, 1, 2, 3, 4, 5].
-function zerosAtTheFront(array) {
+/* function zerosAtTheFront(array) {
   const zeros = [];
   const rest = [];
   for (let i = 0; i < array.length; i++) {
@@ -34,7 +34,7 @@ function zerosAtTheFront(array) {
   return zeros.concat(rest);
 }
 
-console.log(zerosAtTheFront([1, 2, 3, 4, 5, 0, 0]));
+console.log(zerosAtTheFront([1, 2, 3, 4, 5, 0, 0])); */
 
 //* //////////////////////////////////////////////////////////////////////////////////////
 //* //////////////////////////////////////////////////////////////////////////////////////
@@ -78,3 +78,10 @@ console.log(commonItem(["a", "b", "c", "x"], ["z", "y", "i", "c"])); */
 }
 
 console.log(commonItem(["a", "b", "c", "x"], ["z", "y", "i", "x"])); */
+
+//* Solution 3
+function commonItem(array1, array2) {
+   
+}
+
+console.log(commonItem(["a", "b", "c", "x"], ["z", "y", "i", "x"]));
