@@ -81,7 +81,7 @@ console.log(commonItem(["a", "b", "c", "x"], ["z", "y", "i", "x"])); */
 
 //* Solution 3
 function commonItem(array1, array2) {
-   
+ //* Put code here.  
 }
 
 console.log(commonItem(["a", "b", "c", "x"], ["z", "y", "i", "x"]));
