@@ -80,7 +80,7 @@ console.log(commonItem(["a", "b", "c", "x"], ["z", "y", "i", "c"])); */
 console.log(commonItem(["a", "b", "c", "x"], ["z", "y", "i", "x"])); */
 
 //* Solution 3
-/* function commonItem(array1, array2) {
+function commonItem(array1, array2) {
   const obj = {};
   for (let i = 0; i < array1.length; i++) {
     if (!obj[array1[i]]) {
@@ -96,7 +96,7 @@ console.log(commonItem(["a", "b", "c", "x"], ["z", "y", "i", "x"])); */
 
   return false;
 }
-console.log(commonItem(["a", "b", "c", "x"], ["z", "y", "i", "x"])); */
+console.log(commonItem(["a", "b", "c", "x"], ["z", "y", "i", "x"]));
 
 
 
