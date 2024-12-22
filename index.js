@@ -96,5 +96,8 @@ function commonItem(array1, array2) {
 
   return false;
 }
-
 console.log(commonItem(["a", "b", "c", "x"], ["z", "y", "i", "x"]));
+
+
+
+
