@@ -115,7 +115,7 @@ console.log(commonItem(["a", "b", "c", "x"], ["z", "y", "i", "x"])); */
 console.log(reverseStr("Berthony")); */
 
 //* SOLUTION 2
-/* function reverseStr(str) {
+function reverseStr(str) {
   let reversedString = [];
   let splitString = str.split("");
   for (let i = splitString.length; i >= 0; i--) {
@@ -125,4 +125,4 @@ console.log(reverseStr("Berthony")); */
   return reversedString.join("");
 }
 
-console.log(reverseStr("Hi my name is Berthony!")); */
+console.log(reverseStr("Hi my name is Berthony!"));
