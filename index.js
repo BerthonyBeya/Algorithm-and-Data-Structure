@@ -104,5 +104,25 @@ console.log(commonItem(["a", "b", "c", "x"], ["z", "y", "i", "x"])); */
 //* unshift   0(n)
 //* splice    0(n)
 
+//////////////////* String /////////////////////////////////////////////////////////////
+//* Reverse a string
 
+//* SOLUTION 1
+/* function reverseStr(str) {
+  return str.split("").reverse().join("");
+}
 
+console.log(reverseStr("Berthony")); */
+
+//* SOLUTION 2
+/* function reverseStr(str) {
+  let reversedString = [];
+  let splitString = str.split("");
+  for (let i = splitString.length; i >= 0; i--) {
+    reversedString.push(splitString[i]);
+  }
+
+  return reversedString.join("");
+}
+
+console.log(reverseStr("Hi my name is Berthony!")); */
